@@ -1,14 +1,13 @@
-package aiss.vimeominer.model;
+package aiss.vimeominer.model.Caption;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-@Entity
-@Table(name = "VimeoCaption")
-public class VimeoCaption {
-    @Id
+
+public class Caption {
+
     @JsonProperty("id")
     private String id;
 
@@ -17,7 +16,6 @@ public class VimeoCaption {
 
     @JsonProperty("language")
     private String language;
-
 
     public String getId() {
         return id;
@@ -51,4 +49,5 @@ public class VimeoCaption {
                 ", language='" + language + '\'' +
                 '}';
     }
+
 }
