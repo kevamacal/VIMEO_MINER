@@ -1,6 +1,6 @@
 package aiss.vimeominer.controller;
 
-import aiss.vimeominer.ETL.Transform;
+import aiss.vimeominer.etl.Transform;
 import aiss.vimeominer.exception.MaxCommentException;
 import aiss.vimeominer.exception.MaxVideoException;
 import aiss.vimeominer.model.VimeoMiner.Caption.Caption;

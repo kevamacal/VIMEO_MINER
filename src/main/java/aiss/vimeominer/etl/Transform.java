@@ -1,4 +1,4 @@
-package aiss.vimeominer.ETL;
+package aiss.vimeominer.etl;
 
 import aiss.vimeominer.model.VideoMiner.*;
 import aiss.vimeominer.model.VimeoMiner.Caption.Caption;
